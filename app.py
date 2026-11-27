@@ -210,7 +210,7 @@ elif page == "Patient Assessment":
 
         try:
             response = requests.post(
-                "http://127.0.0.1:8000/patient",
+                "https://ckd-ai-prediction.onrender.com/patient",
                 json=patient_payload,
                 timeout=5
             )
